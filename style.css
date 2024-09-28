@@ -1,0 +1,170 @@
+/* Reset default browser styles */
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body and HTML styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(34, 35, 121);
+    background-image: url(./pbl.jpg);
+}
+
+/* Wrapper styles */
+.wrapper {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    flex: 1;
+    padding: 0 2rem;
+
+
+}
+
+/* Logo styles */
+.logo {
+    padding-left: 40px; /* Added padding */
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+/* Menu styles */
+.menu {
+    float: right;
+}
+
+/* Navigation styles */
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background:rgb(29, 105, 247);
+    z-index: 1;
+    border-bottom: 1px solid #364f6b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 16px;
+    text-decoration: none;
+}
+
+.selected-nav {
+    text-decoration: underline;
+}
+
+/* Section styles */
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+/* Column styles */
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.452);
+    padding: 1.5rem;
+    border-radius: 8px;
+
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Comic Sans MS', sans-serif;
+    color:white;
+}
+
+/* Heading styles */
+h4 {
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Button styles */
+a.tbl-biru {
+    background:black;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* Footer styles */
+footer {
+    background:rgb(43, 116, 226);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    flex-shrink: 0;
+}
+
+footer .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .footer-content p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+footer .socials {
+    list-style-type: none;
+    margin: 10px 0 0 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+footer .socials li {
+    display: inline;
+}
+
+footer .socials li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+footer .socials li a:hover {
+    text-decoration: underline;
+}
